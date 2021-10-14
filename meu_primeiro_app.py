@@ -18,7 +18,7 @@ print(" Colégio Paula Feres ")
 space2()
 
 bar()
-print(" Olá aluno, tudo bem com você? ")
+print(" Olá aluno, tudo certo com você? ")
 space2()
 
 bar()
