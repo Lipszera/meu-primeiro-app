@@ -1,12 +1,11 @@
 import time 
 
-def space ():
+def space():
     print(" ================ ")
     print(" ")
     time.sleep(2)
 
-
-def space2 ():
+def space2():
     print("")
     print(" ================ ")
 
@@ -18,30 +17,30 @@ print(" Colégio Paula Feres ")
 space2()
 
 bar()
-print(" Olá aluno, tudo certo com você? ")
+print(" Olá aluno, tudo bem com você? ")
 space2()
 
 bar()
-condiction=str(input("Deseja saber se foi aprovado? [s/n]: ")).upper()
+condiction = str(input("Deseja saber se foi aprovado? [s/n]: ")).upper()
 space2()
 
 if condiction == "S":
-    faltas=int(input("Digite a quantidade de faltas: "))
+    faltas = int(input("Digite a quantidade de faltas: "))
     bar()
-    media=float(input("Digite sua média: "))
+    media = float(input("Digite sua média: "))
 
     if faltas <= 5 and media >= 7:
-         space()
-         print(" Parabéns aluno! Você foi Aprovado. ")
-         space2()
+        space()
+        print(" Parabéns aluno! Você foi Aprovado. ")
+        space2()
 
     elif faltas > 5 and media <= 10:
-         space()
-         print("Como suas faltas", faltas, "faltas", "você foi Reprovado. ")
+        space()
+        print("Como você teve", faltas, "faltas,", "você foi Reprovado. ")
 
     else:
-         space()
-         print("Como sua média foi", media, "você foi Reprovado. ")
+        space()
+        print("Como sua média foi", media, "você foi Reprovado. ")
 
 else:
     space()
